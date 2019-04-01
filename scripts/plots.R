@@ -2,17 +2,16 @@ x11()
 
 library(rgdal)
 
-stadtkreise         <- readOGR ('../dataset/stadtkreise'           , 'Stadtkreis'           )
-stat_quartiere      <- readOGR ('../dataset/statistisches-quartier', 'StatistischesQuartier')
-statistische_zone   <- readOGR ('../dataset/statistische_zone'     , 'StatistischeZone'     )
-zweiradabstellplatz <- readOGR ('../dataset/zweiradabstellplatz'   , 'Zweiradabstellplatz'  )
-fussweg             <- readOGR ('../dataset/fussweg'               , 'Fussweg'              )
-
-
-parkgebuehr         <- readOGR ('../dataset/parkierungsgebuehren'  , 'Parkierungsgebuehren' )
-wahlkreis           <- readOGR ('../dataset/wahlkreis'             , 'Wahlkreis'            )
-landpreiszone       <- readOGR ('../dataset/landpreiszone'         , 'Landpreiszone'        )
-fahrverbotszone     <- readOGR ('../dataset/fahrverbotszone'       , 'Fahrverbotszone'      )
+stadtkreise         <- readOGR ('../dataset/stadtkreise'             , 'Stadtkreis'              )
+stat_quartiere      <- readOGR ('../dataset/statistisches-quartier'  , 'StatistischesQuartier'   )
+statistische_zone   <- readOGR ('../dataset/statistische_zone'       , 'StatistischeZone'        )
+zweiradabstellplatz <- readOGR ('../dataset/zweiradabstellplatz'     , 'Zweiradabstellplatz'     )
+fussweg             <- readOGR ('../dataset/fussweg'                 , 'Fussweg'                 )
+parkverordnung2010  <- readOGR ('../dataset/parkplatzverordnung2010' , 'Parkplatzverordnung2010' )
+parkgebuehr         <- readOGR ('../dataset/parkierungsgebuehren'    , 'Parkierungsgebuehren'    )
+wahlkreis           <- readOGR ('../dataset/wahlkreis'               , 'Wahlkreis'               )
+landpreiszone       <- readOGR ('../dataset/landpreiszone'           , 'Landpreiszone'           )
+fahrverbotszone     <- readOGR ('../dataset/fahrverbotszone'         , 'Fahrverbotszone'         )
 
 einkommen_quartier  <- read.csv('../dataset/fd_median_einkommen_quartier_od1003/wir100od1003.csv'      )
 vermoegen_quartier  <- read.csv('../dataset/fd_median_vermoegen_quartier_od1004/wir100od1004.csv'      )
@@ -48,6 +47,17 @@ dummy <- locator(1)
 #
 plot(stadtkreise)
 plot(subset(fussweg, FAHRRAD==1), col='red' , add=TRUE)
+plot(subset(fussweg, FAHRRAD!=1), col='blue', add=TRUE)
+
+#
+# Parkplatzverordnung2010
+#
+plot(stadtkreise, main='Parkplatzverordnung 2010')
+plot(subset(parkverordnung2010, gebiet == 'A'             ), col='#ff0000' , add=TRUE)
+plot(subset(parkverordnung2010, gebiet == 'B'             ), col='#ee4411' , add=TRUE)
+plot(subset(parkverordnung2010, gebiet == 'C'             ), col='#dd6633' , add=TRUE)
+plot(subset(parkverordnung2010, gebiet == 'D'             ), col='#cc8855' , add=TRUE)
+plot(subset(parkverordnung2010, gebiet == 'übriges Gebiet'), col='#bb7777' , add=TRUE)
 plot(subset(fussweg, FAHRRAD!=1), col='blue', add=TRUE)
 
 #

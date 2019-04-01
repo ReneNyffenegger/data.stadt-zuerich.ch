@@ -29,6 +29,10 @@
   unzip                                                                                                         beleuchtung.zip                                                       -d    dataset/beleuchtung
   rm                                                                                                            beleuchtung.zip
 
+  wget https://data.stadt-zuerich.ch/dataset/parkplatzverordnung2010/resource/ffb27cd2-fda8-449d-ae83-b63e60ad85d7/download/parkplatzverordnung2010.zip
+  unzip                                                                                                                     parkplatzverordnung2010.zip                               -d    dataset/parkplatzverordnung2010
+  rm                                                                                                                        parkplatzverordnung2010.zip
+
   wget https://data.stadt-zuerich.ch/dataset/81b631e7-209c-4caa-973d-7055da55770c/resource/136098e9-dd85-4744-b5d3-2d15d95882d6/download/3d-terrainmodell-lod0_gdb.zip                
   unzip                                                                                                                                  3d-terrainmodell-lod0_gdb.zip                -d    dataset/geo_3d_terrainmodell_lod0/
   rm                                                                                                                                     3d-terrainmodell-lod0_gdb.zip 
