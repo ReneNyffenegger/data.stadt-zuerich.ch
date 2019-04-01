@@ -12,6 +12,7 @@ parkgebuehr         <- readOGR ('../dataset/parkierungsgebuehren'    , 'Parkieru
 wahlkreis           <- readOGR ('../dataset/wahlkreis'               , 'Wahlkreis'               )
 landpreiszone       <- readOGR ('../dataset/landpreiszone'           , 'Landpreiszone'           )
 fahrverbotszone     <- readOGR ('../dataset/fahrverbotszone'         , 'Fahrverbotszone'         )
+adressen            <- readOGR ('../dataset/adressen'                , 'Adressen'                )
 
 einkommen_quartier  <- read.csv('../dataset/fd_median_einkommen_quartier_od1003/wir100od1003.csv'      )
 vermoegen_quartier  <- read.csv('../dataset/fd_median_vermoegen_quartier_od1004/wir100od1004.csv'      )
@@ -48,6 +49,20 @@ dummy <- locator(1)
 plot(stadtkreise)
 plot(subset(fussweg, FAHRRAD==1), col='red' , add=TRUE)
 plot(subset(fussweg, FAHRRAD!=1), col='blue', add=TRUE)
+
+#
+# Adressen
+#
+plot(stadtkreise)
+plot(subset(adressen, adresse == 'Aargauerstrasse 1'), pch=16, col='red'  , cex=2, add=TRUE)
+plot(subset(adressen, adresse == 'Josefstrasse 207b'), pch=16, col='blue' , cex=2, add=TRUE)
+plot(subset(adressen, adresse == 'Toblerstrasse 57' ), pch=16, col='green', cex=2, add=TRUE)
+dummy <- locator(1)
+
+plot(statistische_zone)
+# plot(stadtkreise)
+plot(adressen[is.na(adressen$art), ], cex=0.2, pch=16, col='#ff9933', add=TRUE)
+dummy <- locator(1)
 
 #
 # Parkplatzverordnung2010

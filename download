@@ -49,6 +49,12 @@
   unzip                                                                                                             fahrverbotszone.zip                                               -d    dataset/fahrverbotszone
   rm                                                                                                                fahrverbotszone.zip
 
+  mkdir                                                                                                                                                                                     dataset/adressen
+  wget https://data.stadt-zuerich.ch/dataset/adressen/resource/2b60acd2-aa4e-4a09-b9ce-2b838f1b3d7a/download/adressen.csv                                                                 -Odataset/adressen/adressen.csv
+  wget https://data.stadt-zuerich.ch/dataset/adressen/resource/2f3e80d8-646d-4247-8542-37837b6ed3db/download/adressen.zip                           
+  unzip                                                                                                      adressen.zip                                                             -d    dataset/adressen
+  rm                                                                                                         adressen.zip
+
   mkdir                                                                                                                                                                                     dataset/fd_median_einkommen_quartier_od1003
   wget https://data.stadt-zuerich.ch/dataset/5141e815-0b54-4186-b0ad-5ae7a071e033/resource/9720e2cc-6a34-452c-8f20-4fc78c9496ac/download/wir100od1003.csv                                 -Odataset/fd_median_einkommen_quartier_od1003/wir100od1003.csv
 
