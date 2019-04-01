@@ -7,6 +7,8 @@ stat_quartiere      <- readOGR ('../dataset/statistisches-quartier', 'Statistisc
 statistische_zone   <- readOGR ('../dataset/statistische_zone'     , 'StatistischeZone'     )
 zweiradabstellplatz <- readOGR ('../dataset/zweiradabstellplatz'   , 'Zweiradabstellplatz'  )
 fussweg             <- readOGR ('../dataset/fussweg'               , 'Fussweg'              )
+
+
 parkgebuehr         <- readOGR ('../dataset/parkierungsgebuehren'  , 'Parkierungsgebuehren' )
 wahlkreis           <- readOGR ('../dataset/wahlkreis'             , 'Wahlkreis'            )
 landpreiszone       <- readOGR ('../dataset/landpreiszone'         , 'Landpreiszone'        )
@@ -47,6 +49,17 @@ dummy <- locator(1)
 plot(stadtkreise)
 plot(subset(fussweg, FAHRRAD==1), col='red' , add=TRUE)
 plot(subset(fussweg, FAHRRAD!=1), col='blue', add=TRUE)
+
+#
+# Beleuchtung
+#
+#   Following causes error with rgdal package
+#
+# beleuchtung         <- readOGR ('../dataset/beleuchtung'           , 'Beleuchtung'          )
+#
+  library(maptools)
+  beleuchtung       <- readShapePoints ('../dataset/beleuchtung/Beleuchtung.shp')
+  plot(beleuchtung)
 
 #
 #  Abstimmungen
