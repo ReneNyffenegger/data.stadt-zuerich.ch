@@ -1,13 +1,21 @@
 # wget https://data.stadt-zuerich.ch/dataset/bau_handel_freihandkauf_bebaute_grundstueckflaeche_nach_bauzone_quartier/resource/4f624e38-2260-4fef-bf5a-7cb23f500711/download/t6116.csv -Odataset/bau-handel-freihandkauf-bebaute-grundstueckflaeche-nach-bauzone-quartier/t6116.csv
 # wget https://data.stadt-zuerich.ch/storage/f/bau_handel_umgesetzte_grundstuecke_und_flaeche_nach_handaenderungsart/t_6_1_5.csv                                                       -Odataset/bau-handel-freihandkauf-bebaute-grundstueckflaeche-nach-bauzone-quartier/t_6_1_5.csv
 
-  wget https://data.stadt-zuerich.ch/dataset/11b61777-800c-4ebe-a340-bbe4affaedfd/resource/21feabe3-955f-4210-aa0b-2b1b3c46d8c8/download/zweiradabstellplatz.zip 
-  unzip                                                                                                                                  zweiradabstellplatz.zip                      -d    dataset/zweiradabstellplatz
-  rm                                                                                                                                     zweiradabstellplatz.zip
-
   wget https://data.stadt-zuerich.ch/dataset/5fd779b6-64b3-4320-baa2-40e4de59dfc6/resource/5c4c82ca-eeff-4633-a310-80b7a94e1ae4/download/stadtkreis.zip             
   unzip                                                                                                                                  stadtkreis.zip                               -d    dataset/stadtkreise
   rm                                                                                                                                     stadtkreis.zip
+
+  wget https://data.stadt-zuerich.ch/dataset/statistisches_quartier/resource/254a18b1-329b-458c-b6fd-d9869289cfb5/download/statistische_quartiere.zip                       
+  unzip                                                                                                                    statistische_quartiere.zip                                 -d    dataset/statistisches-quartier
+  rm                                                                                                                       statistische_quartiere.zip
+
+  wget https://data.stadt-zuerich.ch/dataset/be458d0f-65b2-44f3-8406-e6e5941f3f85/resource/f432a772-b218-4535-b3d7-541920bb3c22/download/statistische_zonen.zip             
+  unzip                                                                                                                                  statistische_zonen.zip                       -d    dataset/statistische_zone
+  rm                                                                                                                                     statistische_zonen.zip
+
+  wget https://data.stadt-zuerich.ch/dataset/11b61777-800c-4ebe-a340-bbe4affaedfd/resource/21feabe3-955f-4210-aa0b-2b1b3c46d8c8/download/zweiradabstellplatz.zip 
+  unzip                                                                                                                                  zweiradabstellplatz.zip                      -d    dataset/zweiradabstellplatz
+  rm                                                                                                                                     zweiradabstellplatz.zip
 
   wget https://data.stadt-zuerich.ch/dataset/81b631e7-209c-4caa-973d-7055da55770c/resource/136098e9-dd85-4744-b5d3-2d15d95882d6/download/3d-terrainmodell-lod0_gdb.zip                
   unzip                                                                                                                                  3d-terrainmodell-lod0_gdb.zip                -d    dataset/geo_3d_terrainmodell_lod0/
@@ -24,10 +32,6 @@
   wget https://data.stadt-zuerich.ch/dataset/fahrverbotszone/resource/602ca672-a394-46e5-8f43-2ada5e7f47e3/download/fahrverbotszone.zip             
   unzip                                                                                                             fahrverbotszone.zip                                               -d    dataset/fahrverbotszone
   rm                                                                                                                fahrverbotszone.zip
-
-  wget https://data.stadt-zuerich.ch/dataset/be458d0f-65b2-44f3-8406-e6e5941f3f85/resource/f432a772-b218-4535-b3d7-541920bb3c22/download/statistische_zonen.zip             
-  unzip                                                                                                                                  statistische_zonen.zip                       -d    dataset/statistische_zone
-  rm                                                                                                                                     statistische_zonen.zip
 
   mkdir                                                                                                                                                                                     dataset/fd_median_einkommen_quartier_od1003
   wget https://data.stadt-zuerich.ch/dataset/5141e815-0b54-4186-b0ad-5ae7a071e033/resource/9720e2cc-6a34-452c-8f20-4fc78c9496ac/download/wir100od1003.csv                                 -Odataset/fd_median_einkommen_quartier_od1003/wir100od1003.csv

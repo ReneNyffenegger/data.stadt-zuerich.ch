@@ -2,12 +2,13 @@ x11()
 
 library(rgdal)
 
-stadtkreise         <- readOGR ('../dataset/stadtkreise'          , 'Stadtkreis'         )
-zweiradabstellplatz <- readOGR ('../dataset/zweiradabstellplatz'  , 'Zweiradabstellplatz')
-wahlkreis           <- readOGR ('../dataset/wahlkreis'            , 'Wahlkreis'          )
-landpreiszone       <- readOGR ('../dataset/landpreiszone'        , 'Landpreiszone'      )
-fahrverbotszone     <- readOGR ('../dataset/fahrverbotszone'      , 'Fahrverbotszone'    )
-statistische_zone   <- readOGR ('../dataset/statistische_zone'    , 'StatistischeZone'   )
+stadtkreise         <- readOGR ('../dataset/stadtkreise'           , 'Stadtkreis'           )
+stat_quartiere      <- readOGR ('../dataset/statistisches-quartier', 'StatistischesQuartier')
+statistische_zone   <- readOGR ('../dataset/statistische_zone'     , 'StatistischeZone'     )
+zweiradabstellplatz <- readOGR ('../dataset/zweiradabstellplatz'   , 'Zweiradabstellplatz'  )
+wahlkreis           <- readOGR ('../dataset/wahlkreis'             , 'Wahlkreis'            )
+landpreiszone       <- readOGR ('../dataset/landpreiszone'         , 'Landpreiszone'        )
+fahrverbotszone     <- readOGR ('../dataset/fahrverbotszone'       , 'Fahrverbotszone'      )
 
 einkommen_quartier  <- read.csv('../dataset/fd_median_einkommen_quartier_od1003/wir100od1003.csv'      )
 vermoegen_quartier  <- read.csv('../dataset/fd_median_vermoegen_quartier_od1004/wir100od1004.csv'      )
@@ -15,6 +16,10 @@ stockwerk_eigentum  <- read.csv('../dataset/bau-bautaetigkeit-neu-erstelltes-sto
 wohnungen           <- read.csv('../dataset/bau-bestand-wohnungen-nach-gebaeudeart-stockwerk-und-quartier/t936.csv', encoding='latin1')
 kitas               <- read.csv('../dataset/sd_zv_kitas_schulkreis/sd_zv_kitas_schulkreis.csv')
 abstimmungen_s_1933 <- read.csv('../dataset/politik-abstimmungen-seit-1933/abstimmungen_seit1933.csv')
+
+# Stadtquartiere
+
+plot(stat_quartiere)
 
 #
 #  Abstimmungen
