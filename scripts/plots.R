@@ -6,6 +6,7 @@ stadtkreise         <- readOGR ('../dataset/stadtkreise'           , 'Stadtkreis
 stat_quartiere      <- readOGR ('../dataset/statistisches-quartier', 'StatistischesQuartier')
 statistische_zone   <- readOGR ('../dataset/statistische_zone'     , 'StatistischeZone'     )
 zweiradabstellplatz <- readOGR ('../dataset/zweiradabstellplatz'   , 'Zweiradabstellplatz'  )
+parkgebuehr         <- readOGR ('../dataset/parkierungsgebuehren'  , 'Parkierungsgebuehren' )
 wahlkreis           <- readOGR ('../dataset/wahlkreis'             , 'Wahlkreis'            )
 landpreiszone       <- readOGR ('../dataset/landpreiszone'         , 'Landpreiszone'        )
 fahrverbotszone     <- readOGR ('../dataset/fahrverbotszone'       , 'Fahrverbotszone'      )
@@ -20,6 +21,26 @@ abstimmungen_s_1933 <- read.csv('../dataset/politik-abstimmungen-seit-1933/absti
 # Stadtquartiere
 
 plot(stat_quartiere)
+
+
+#
+# Parkgebuehren
+#
+plot(stadtkreise, main = 'Mo-Mi 9-20, Do-So 9-9')
+plot(parkgebuehr[parkgebuehr$bedienungs == 'Montag - Mittwoch, 9:00 - 20:00 Uhr, Donnerstag - Sonntag, 9:00 - 9:00 Uhr', ], col='red', add=TRUE)
+dummy <- locator(1)
+
+plot(stadtkreise, main = 'Hochtarifzone')
+plot(parkgebuehr[parkgebuehr$tarifzone == 'Hochtarifzone'  , ], col='red' , add=TRUE)
+dummy <- locator(1)
+
+plot(stadtkreise, main = 'Zürich West/Innenstadt u. Oerlikon')
+plot(subset(parkgebuehr, zone_bezei == 'Zürich-West'            ), col='red' , add=TRUE)
+plot(subset(parkgebuehr, zone_bezei == 'Innenstadt und Oerlikon'), col='blue', add=TRUE)
+plot(parkgebuehr[parkgebuehr$zone_bezei == 'Zürich-West'                                    , ], col='red' , add=TRUE)
+plot(parkgebuehr[parkgebuehr$zone_bezei == 'Innenstadt und Oerlikon Innenstadt und Oerlikon', ], col='blue', add=TRUE)
+# plot(parkgebuehr[parkgebuehr$tarifzone == 'Niedertarifzone', ], col='blue', add=TRUE)
+dummy <- locator(1)
 
 #
 #  Abstimmungen
