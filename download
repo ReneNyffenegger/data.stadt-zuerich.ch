@@ -17,6 +17,14 @@
   unzip                                                                                                                                  zweiradabstellplatz.zip                      -d    dataset/zweiradabstellplatz
   rm                                                                                                                                     zweiradabstellplatz.zip
 
+  wget https://data.stadt-zuerich.ch/dataset/658e42ed-e8fc-49fd-a69f-a1b3c8a58231/resource/e9882576-98f1-4610-a86b-e9b92836523f/download/parkierungsgebuehren.zip
+  unzip                                                                                                                                  parkierungsgebuehren.zip                     -d    dataset/parkierungsgebuehren
+  rm                                                                                                                                     parkierungsgebuehren.zip   
+
+  wget https://data.stadt-zuerich.ch/dataset/fussweg/resource/aa847c37-e01c-47db-ba64-d6b2f6bb3019/download/fussweg.zip
+  unzip                                                                                                     fussweg.zip                                                               -d    dataset/fussweg
+  rm                                                                                                        fussweg.zip
+
   wget https://data.stadt-zuerich.ch/dataset/81b631e7-209c-4caa-973d-7055da55770c/resource/136098e9-dd85-4744-b5d3-2d15d95882d6/download/3d-terrainmodell-lod0_gdb.zip                
   unzip                                                                                                                                  3d-terrainmodell-lod0_gdb.zip                -d    dataset/geo_3d_terrainmodell_lod0/
   rm                                                                                                                                     3d-terrainmodell-lod0_gdb.zip 

@@ -6,6 +6,7 @@ stadtkreise         <- readOGR ('../dataset/stadtkreise'           , 'Stadtkreis
 stat_quartiere      <- readOGR ('../dataset/statistisches-quartier', 'StatistischesQuartier')
 statistische_zone   <- readOGR ('../dataset/statistische_zone'     , 'StatistischeZone'     )
 zweiradabstellplatz <- readOGR ('../dataset/zweiradabstellplatz'   , 'Zweiradabstellplatz'  )
+fussweg             <- readOGR ('../dataset/fussweg'               , 'Fussweg'              )
 parkgebuehr         <- readOGR ('../dataset/parkierungsgebuehren'  , 'Parkierungsgebuehren' )
 wahlkreis           <- readOGR ('../dataset/wahlkreis'             , 'Wahlkreis'            )
 landpreiszone       <- readOGR ('../dataset/landpreiszone'         , 'Landpreiszone'        )
@@ -37,10 +38,15 @@ dummy <- locator(1)
 plot(stadtkreise, main = 'Zürich West/Innenstadt u. Oerlikon')
 plot(subset(parkgebuehr, zone_bezei == 'Zürich-West'            ), col='red' , add=TRUE)
 plot(subset(parkgebuehr, zone_bezei == 'Innenstadt und Oerlikon'), col='blue', add=TRUE)
-plot(parkgebuehr[parkgebuehr$zone_bezei == 'Zürich-West'                                    , ], col='red' , add=TRUE)
-plot(parkgebuehr[parkgebuehr$zone_bezei == 'Innenstadt und Oerlikon Innenstadt und Oerlikon', ], col='blue', add=TRUE)
 # plot(parkgebuehr[parkgebuehr$tarifzone == 'Niedertarifzone', ], col='blue', add=TRUE)
 dummy <- locator(1)
+
+#
+# Fussweg
+#
+plot(stadtkreise)
+plot(subset(fussweg, FAHRRAD==1), col='red' , add=TRUE)
+plot(subset(fussweg, FAHRRAD!=1), col='blue', add=TRUE)
 
 #
 #  Abstimmungen
