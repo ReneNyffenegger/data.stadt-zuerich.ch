@@ -92,6 +92,9 @@
   mkdir                                                                                                                                                                                     dataset/bev_hh_haushaltsform_quartier_seit2013_od3805
   wget https://data.stadt-zuerich.ch/dataset/67bb4139-4dad-4f76-8fb2-8d2188d4d6c0/resource/8ed0d907-60ee-4db3-b5e7-ee7e4e2e3d90/download/bev380od3805.csv                                 -Odataset/bev_hh_haushaltsform_quartier_seit2013_od3805/bev380od3805.csv
 
+  mkdir                                                                                                                                                                                     dataset/bev_hh_haushaltsgroesse_quartier_seit2013_od3806
+  wget https://data.stadt-zuerich.ch/dataset/5e1dde07-92be-4018-8cd2-aa11cc4bce74/resource/795b98bc-a161-417f-b948-21d3ea2649ac/download/bev380od3806.csv                                 -Odataset/bev_hh_haushaltsgroesse_quartier_seit2013_od3806/bev380od3806.csv
+
   mkdir                                                                                                                                                                                     dataset/fd_median_einkommen_quartier_od1003
   wget https://data.stadt-zuerich.ch/dataset/5141e815-0b54-4186-b0ad-5ae7a071e033/resource/9720e2cc-6a34-452c-8f20-4fc78c9496ac/download/wir100od1003.csv                                 -Odataset/fd_median_einkommen_quartier_od1003/wir100od1003.csv
 
