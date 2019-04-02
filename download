@@ -116,6 +116,10 @@
   mkdir                                                                                                                                                                                     dataset/bau-bestand-wohnungen-nach-gebaeudeart-stockwerk-und-quartier
   wget https://data.stadt-zuerich.ch/dataset/bau_bestand_wohnungen_nach_gebaeudeart_stockwerk_und_quartier/resource/9ae70ce1-28c5-41a0-80df-4c52fb180f43/download/t936.csv                -Odataset/bau-bestand-wohnungen-nach-gebaeudeart-stockwerk-und-quartier/t936.csv
 
+  mkdir                                                                                                                                                                                     dataset/ewz-stromverbrauch-statz
+  wget https://data.stadt-zuerich.ch/dataset/ewz_stromverbrauch_statz/resource/e5988069-5319-4898-a9bd-3230792022dd/download/consumption_2015_stand_20160316.csv                          -Odataset/ewz-stromverbrauch-statz/consumption_2015_stand_20160316.csv
+  wget https://data.stadt-zuerich.ch/dataset/ewz_stromverbrauch_statz/resource/f6b2f03d-0cfb-4b9f-a0d2-ade19ea02004/download/consumption_2016_stand_20170329.csv                          -Odataset/ewz-stromverbrauch-statz/consumption_2016_stand_20170329.csv
+
   mkdir                                                                                                                                                                                     dataset/sd_zv_kitas_schulkreis
   wget https://data.stadt-zuerich.ch/dataset/3c9f4cb9-09a7-48c0-9866-34bf11519ab3/resource/7013495f-a335-4793-9064-55c8eccc0d47/download/sd_zv_kitas_schulkreis.csv                       -Odataset/sd_zv_kitas_schulkreis/sd_zv_kitas_schulkreis.csv
 
