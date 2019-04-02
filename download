@@ -92,6 +92,9 @@
   mkdir                                                                                                                                                                                     dataset/bfs_ste_bev_hauptsprachen_quartier_od3041
   wget https://data.stadt-zuerich.ch/dataset/ad8a24ff-34bf-418c-976a-e4c4fb48604e/resource/aca65566-f048-44da-be74-f2675e843189/download/bev304od3041.csv                                 -Odataset/bfs_ste_bev_hauptsprachen_quartier_od3041/bev304od3041.csv
 
+  mkdir                                                                                                                                                                                     dataset/bfs_ste_bev_hauptsprachen_seit1860_od3032
+  wget https://data.stadt-zuerich.ch/dataset/92ebf0d3-f628-449c-8ae2-e4fef43b9912/resource/58755efe-1593-48b6-9e23-4019e6a96534/download/bev303od3032.csv                                 -Odataset/bfs_ste_bev_hauptsprachen_seit1860_od3032/bev303od3032.csv
+
   mkdir                                                                                                                                                                                     dataset/bev_hh_haushaltsform_quartier_seit2013_od3805
   wget https://data.stadt-zuerich.ch/dataset/67bb4139-4dad-4f76-8fb2-8d2188d4d6c0/resource/8ed0d907-60ee-4db3-b5e7-ee7e4e2e3d90/download/bev380od3805.csv                                 -Odataset/bev_hh_haushaltsform_quartier_seit2013_od3805/bev380od3805.csv
 
