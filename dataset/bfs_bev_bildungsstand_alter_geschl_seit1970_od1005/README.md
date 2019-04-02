@@ -32,4 +32,6 @@ sowie Gymnasium.
 Die **Tertiärstufe** umfasst Ausbildungen im Bereich der höheren Berufsbildung,
 Fachhochschulen sowie Hochschulen.
 
+## untAntBevKI / obAntBevKI
 
+Die untere und obere Grenze des Konfidenzintervalls
