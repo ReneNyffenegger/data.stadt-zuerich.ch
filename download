@@ -55,6 +55,9 @@
   unzip                                                                                                      adressen.zip                                                             -d    dataset/adressen
   rm                                                                                                         adressen.zip
 
+  mkdir                                                                                                                                                                                     dataset/strassennamenverzeichnis
+  wget https://data.stadt-zuerich.ch/dataset/strassennamenverzeichnis/resource/0e71f279-7e95-4553-abf8-56eff2c6761e/download/strassennamenverzeichnis.csv                                 -Odataset/strassennamenverzeichnis/strassennamenverzeichnis.csv
+
   mkdir                                                                                                                                                                                                dataset/verkehrszaehlungen-standorte-velo-fussgaenger
   wget https://data.stadt-zuerich.ch/dataset/verkehrszaehlungen_standorte_velo_fussgaenger/resource/b2216f79-6e2e-48ee-92ee-c70fddecc1f3/download/verkehrszaehlungen_standorte_velo_fussgaenger.csv  -Odataset/verkehrszaehlungen-standorte-velo-fussgaenger/verkehrszaehlungen_standorte_velo_fussgaenger.csv
   wget https://data.stadt-zuerich.ch/dataset/verkehrszaehlungen_standorte_velo_fussgaenger/resource/d082558b-a856-422d-80d4-2cd1e617fb68/download/verkehrszaehlungen_standorte_velo_fussgaenger.zip                           
@@ -119,6 +122,9 @@
   mkdir                                                                                                                                                                                     dataset/ewz-stromverbrauch-statz
   wget https://data.stadt-zuerich.ch/dataset/ewz_stromverbrauch_statz/resource/e5988069-5319-4898-a9bd-3230792022dd/download/consumption_2015_stand_20160316.csv                          -Odataset/ewz-stromverbrauch-statz/consumption_2015_stand_20160316.csv
   wget https://data.stadt-zuerich.ch/dataset/ewz_stromverbrauch_statz/resource/f6b2f03d-0cfb-4b9f-a0d2-ade19ea02004/download/consumption_2016_stand_20170329.csv                          -Odataset/ewz-stromverbrauch-statz/consumption_2016_stand_20170329.csv
+
+  mkdir                                                                                                                                                                                     dataset/bau-nutzflaechen-seit-2008
+  wget https://data.stadt-zuerich.ch/dataset/bau_nutzflaechen_seit_2008/resource/c3a44df6-8599-48f6-b8fe-33c586edbeb4/download/bau_nutzflaechen_seit_2008.csv                             -Odataset/bau-nutzflaechen-seit-2008/bau_nutzflaechen_seit_2008.csv
 
   mkdir                                                                                                                                                                                     dataset/sd_zv_kitas_schulkreis
   wget https://data.stadt-zuerich.ch/dataset/3c9f4cb9-09a7-48c0-9866-34bf11519ab3/resource/7013495f-a335-4793-9064-55c8eccc0d47/download/sd_zv_kitas_schulkreis.csv                       -Odataset/sd_zv_kitas_schulkreis/sd_zv_kitas_schulkreis.csv
