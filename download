@@ -55,6 +55,9 @@
   unzip                                                                                                      adressen.zip                                                             -d    dataset/adressen
   rm                                                                                                         adressen.zip
 
+  mkdir                                                                                                                                                                                     dataset/bfs_bev_bildungsstand_alter_geschl_seit1970_od1005
+  wget https://data.stadt-zuerich.ch/dataset/3c1aa166-a5b5-4378-a2ab-d3b3afc71e62/resource/ab166eaf-02d9-42e4-b377-94324f66e23a/download/bil100od1005.csv                                 -Odataset/bfs_bev_bildungsstand_alter_geschl_seit1970_od1005/bil100od1005.csv
+
   mkdir                                                                                                                                                                                     dataset/fd_median_einkommen_quartier_od1003
   wget https://data.stadt-zuerich.ch/dataset/5141e815-0b54-4186-b0ad-5ae7a071e033/resource/9720e2cc-6a34-452c-8f20-4fc78c9496ac/download/wir100od1003.csv                                 -Odataset/fd_median_einkommen_quartier_od1003/wir100od1003.csv
 
