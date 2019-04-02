@@ -1,0 +1,139 @@
+﻿"RaumSort","RaumLang","Bildungsstand","AntBev","untAntBevKI","obAntBevKI"
+10,"Kreis 1","Obligatorische Schule",7.5,5.1,9.9
+10,"Kreis 1","Sekundarstufe II",28.2,24.2,32.1
+10,"Kreis 1","Tertiärstufe",64.3,60.1,68.5
+11,"Rathaus","Obligatorische Schule",6.6,3.9,9.3
+11,"Rathaus","Sekundarstufe II",27.8,22.8,32.7
+11,"Rathaus","Tertiärstufe",65.6,60.4,70.8
+12,"Hochschulen","Obligatorische Schule",4.4,0,12.5
+12,"Hochschulen","Sekundarstufe II",31.3,14.8,47.8
+12,"Hochschulen","Tertiärstufe",64.2,47.2,81.3
+13,"Lindenhof","Obligatorische Schule",7.6,1.9,13.3
+13,"Lindenhof","Sekundarstufe II",30.9,21.2,40.5
+13,"Lindenhof","Tertiärstufe",61.5,51.4,71.7
+14,"City","Obligatorische Schule",12.9,3.9,21.8
+14,"City","Sekundarstufe II",25.2,15,35.5
+14,"City","Tertiärstufe",61.9,50.3,73.5
+20,"Kreis 2","Obligatorische Schule",15.8,14.5,17.1
+20,"Kreis 2","Sekundarstufe II",33,31.4,34.7
+20,"Kreis 2","Tertiärstufe",51.2,49.4,53
+21,"Wollishofen","Obligatorische Schule",14.7,13,16.4
+21,"Wollishofen","Sekundarstufe II",35.4,33.1,37.8
+21,"Wollishofen","Tertiärstufe",49.8,47.4,52.3
+23,"Leimbach","Obligatorische Schule",25.6,21.9,29.3
+23,"Leimbach","Sekundarstufe II",36.9,32.9,40.9
+23,"Leimbach","Tertiärstufe",37.5,33.5,41.5
+24,"Enge","Obligatorische Schule",11.8,9.6,13.9
+24,"Enge","Sekundarstufe II",26.2,23.3,29.1
+24,"Enge","Tertiärstufe",62,58.8,65.2
+30,"Kreis 3","Obligatorische Schule",19.3,18.1,20.5
+30,"Kreis 3","Sekundarstufe II",30.3,29,31.7
+30,"Kreis 3","Tertiärstufe",50.3,48.9,51.8
+31,"Alt-Wiedikon","Obligatorische Schule",15.3,13.5,17.1
+31,"Alt-Wiedikon","Sekundarstufe II",27.6,25.4,29.8
+31,"Alt-Wiedikon","Tertiärstufe",57.1,54.7,59.5
+33,"Friesenberg","Obligatorische Schule",27.1,24.2,30
+33,"Friesenberg","Sekundarstufe II",38.8,35.7,42
+33,"Friesenberg","Tertiärstufe",34.1,31.1,37.1
+34,"Sihlfeld","Obligatorische Schule",18.9,17.1,20.7
+34,"Sihlfeld","Sekundarstufe II",28.5,26.5,30.5
+34,"Sihlfeld","Tertiärstufe",52.5,50.3,54.8
+40,"Kreis 4","Obligatorische Schule",22.2,20.5,23.8
+40,"Kreis 4","Sekundarstufe II",29.2,27.4,31
+40,"Kreis 4","Tertiärstufe",48.6,46.6,50.6
+41,"Werd","Obligatorische Schule",11.9,8.5,15.2
+41,"Werd","Sekundarstufe II",28.6,24.1,33.2
+41,"Werd","Tertiärstufe",59.5,54.6,64.4
+42,"Langstrasse","Obligatorische Schule",15.4,13.1,17.8
+42,"Langstrasse","Sekundarstufe II",27.4,24.5,30.3
+42,"Langstrasse","Tertiärstufe",57.1,53.9,60.3
+44,"Hard","Obligatorische Schule",31.1,28.4,33.9
+44,"Hard","Sekundarstufe II",30.9,28.2,33.6
+44,"Hard","Tertiärstufe",38,35.1,40.8
+50,"Kreis 5","Obligatorische Schule",14.2,12.3,16.1
+50,"Kreis 5","Sekundarstufe II",27.7,25.3,30
+50,"Kreis 5","Tertiärstufe",58.1,55.5,60.7
+51,"Gewerbeschule","Obligatorische Schule",18.7,16,21.4
+51,"Gewerbeschule","Sekundarstufe II",30.6,27.5,33.7
+51,"Gewerbeschule","Tertiärstufe",50.7,47.3,54.1
+52,"Escher Wyss","Obligatorische Schule",7.2,5.1,9.3
+52,"Escher Wyss","Sekundarstufe II",23.2,19.6,26.7
+52,"Escher Wyss","Tertiärstufe",69.7,65.8,73.5
+60,"Kreis 6","Obligatorische Schule",11.5,10.3,12.6
+60,"Kreis 6","Sekundarstufe II",27.5,25.9,29
+60,"Kreis 6","Tertiärstufe",61.1,59.4,62.8
+61,"Unterstrass","Obligatorische Schule",13.4,11.9,14.9
+61,"Unterstrass","Sekundarstufe II",29.8,27.8,31.8
+61,"Unterstrass","Tertiärstufe",56.8,54.7,59
+63,"Oberstrass","Obligatorische Schule",7.4,5.7,9
+63,"Oberstrass","Sekundarstufe II",22.6,20,25.1
+63,"Oberstrass","Tertiärstufe",70.1,67.2,72.9
+70,"Kreis 7","Obligatorische Schule",9.7,8.7,10.7
+70,"Kreis 7","Sekundarstufe II",28.4,26.9,29.9
+70,"Kreis 7","Tertiärstufe",61.9,60.3,63.5
+71,"Fluntern","Obligatorische Schule",7,5.1,8.8
+71,"Fluntern","Sekundarstufe II",23.7,20.7,26.8
+71,"Fluntern","Tertiärstufe",69.3,65.9,72.6
+72,"Hottingen","Obligatorische Schule",8.4,6.6,10.1
+72,"Hottingen","Sekundarstufe II",25.5,22.8,28.1
+72,"Hottingen","Tertiärstufe",66.2,63.3,69
+73,"Hirslanden","Obligatorische Schule",10,7.7,12.4
+73,"Hirslanden","Sekundarstufe II",27.8,24.5,31.2
+73,"Hirslanden","Tertiärstufe",62.1,58.5,65.8
+74,"Witikon","Obligatorische Schule",12.9,10.8,15
+74,"Witikon","Sekundarstufe II",34.9,32.1,37.8
+74,"Witikon","Tertiärstufe",52.2,49.2,55.2
+80,"Kreis 8","Obligatorische Schule",8.7,7.2,10.1
+80,"Kreis 8","Sekundarstufe II",26.9,24.7,29.1
+80,"Kreis 8","Tertiärstufe",64.4,62,66.9
+81,"Seefeld","Obligatorische Schule",7,4.6,9.4
+81,"Seefeld","Sekundarstufe II",25.9,22,29.7
+81,"Seefeld","Tertiärstufe",67.1,62.9,71.3
+82,"Mühlebach","Obligatorische Schule",7.8,5.7,9.9
+82,"Mühlebach","Sekundarstufe II",28.2,24.6,31.8
+82,"Mühlebach","Tertiärstufe",64,60.1,67.9
+83,"Weinegg","Obligatorische Schule",11.7,8.5,14.9
+83,"Weinegg","Sekundarstufe II",26.3,22.2,30.4
+83,"Weinegg","Tertiärstufe",62,57.4,66.6
+90,"Kreis 9","Obligatorische Schule",22.9,21.8,24.1
+90,"Kreis 9","Sekundarstufe II",40.4,39.1,41.8
+90,"Kreis 9","Tertiärstufe",36.6,35.3,38
+91,"Albisrieden","Obligatorische Schule",17.6,15.9,19.3
+91,"Albisrieden","Sekundarstufe II",39.4,37.3,41.6
+91,"Albisrieden","Tertiärstufe",43,40.8,45.2
+92,"Altstetten","Obligatorische Schule",26.3,24.7,27.9
+92,"Altstetten","Sekundarstufe II",41.1,39.3,42.8
+92,"Altstetten","Tertiärstufe",32.6,31,34.3
+100,"Kreis 10","Obligatorische Schule",13.1,12,14.2
+100,"Kreis 10","Sekundarstufe II",34.2,32.7,35.7
+100,"Kreis 10","Tertiärstufe",52.7,51.1,54.3
+101,"Höngg","Obligatorische Schule",12,10.6,13.3
+101,"Höngg","Sekundarstufe II",38.3,36.3,40.3
+101,"Höngg","Tertiärstufe",49.8,47.7,51.8
+102,"Wipkingen","Obligatorische Schule",14.7,12.9,16.6
+102,"Wipkingen","Sekundarstufe II",28.3,26,30.5
+102,"Wipkingen","Tertiärstufe",57,54.5,59.5
+110,"Kreis 11","Obligatorische Schule",21.5,20.5,22.5
+110,"Kreis 11","Sekundarstufe II",37,35.8,38.1
+110,"Kreis 11","Tertiärstufe",41.5,40.3,42.7
+111,"Affoltern","Obligatorische Schule",23,21.3,24.7
+111,"Affoltern","Sekundarstufe II",41.3,39.3,43.3
+111,"Affoltern","Tertiärstufe",35.7,33.7,37.6
+115,"Oerlikon","Obligatorische Schule",16.4,14.7,18
+115,"Oerlikon","Sekundarstufe II",30.8,28.8,32.9
+115,"Oerlikon","Tertiärstufe",52.8,50.6,55
+119,"Seebach","Obligatorische Schule",24.7,22.8,26.5
+119,"Seebach","Sekundarstufe II",37.9,35.9,40
+119,"Seebach","Tertiärstufe",37.4,35.4,39.4
+120,"Kreis 12","Obligatorische Schule",32.1,30.3,33.8
+120,"Kreis 12","Sekundarstufe II",39.4,37.5,41.2
+120,"Kreis 12","Tertiärstufe",28.6,26.9,30.3
+121,"Saatlen","Obligatorische Schule",33.5,30,37.1
+121,"Saatlen","Sekundarstufe II",38.7,35.2,42.3
+121,"Saatlen","Tertiärstufe",27.7,24.4,31.1
+122,"Schwamendingen-Mitte","Obligatorische Schule",30.4,27.5,33.3
+122,"Schwamendingen-Mitte","Sekundarstufe II",38.2,35.2,41.2
+122,"Schwamendingen-Mitte","Tertiärstufe",31.4,28.5,34.3
+123,"Hirzenbach","Obligatorische Schule",32.7,29.7,35.6
+123,"Hirzenbach","Sekundarstufe II",40.9,37.9,44
+123,"Hirzenbach","Tertiärstufe",26.4,23.7,29.1
