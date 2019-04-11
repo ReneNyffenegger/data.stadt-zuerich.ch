@@ -1,4 +1,3 @@
 # Statistische Zonen
 
-Eine Untertilung der Statistischen Quartiere.
-
+Eine Untertilung der *statistischen Quartiere*.
