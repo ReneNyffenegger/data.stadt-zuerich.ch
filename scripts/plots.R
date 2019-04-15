@@ -239,6 +239,7 @@ lod0 <- readOGR('../dataset/3d-terrainmodell-lod0/Terrain_LoD0_TIN.gdb', 'TIN_ST
 #
 # Plot swiss coordinates onto map.
 #
+  par(mar=c(0, 0, 0, 0))
   plot(stadtkreise)
   anInterestingPoint <- data.frame( x = c(2687148),  y = c(1245994) )
   coordinates(anInterestingPoint) <- ~x+y
