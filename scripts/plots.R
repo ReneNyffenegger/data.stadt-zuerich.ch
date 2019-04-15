@@ -16,6 +16,9 @@ landpreiszone       <- readOGR (paste0(stzh_data_root, 'dataset/landpreiszone'  
 fahrverbotszone     <- readOGR (paste0(stzh_data_root, 'dataset/fahrverbotszone'          )                     , 'Fahrverbotszone'                              )
 adressen            <- readOGR (paste0(stzh_data_root, 'dataset/adressen'                 )                     , 'Adressen'                                     )
 
+#
+summary(stadtkreise)
+
 # Geometry error:
 # vk_zaehl_standort   <- readOGR ('../dataset/verkehrszaehlungen-standorte-velo-fussgaenger'  , 'Verkehrszaehlungen_Standorte_Velo_Fussgaenger')
   
@@ -229,3 +232,26 @@ plot(zweiradabstellplatz[! gedeckt, ], pch=16, cex=zweiradabstellplatz@data$anza
 dummy <- locator(1)
 
 lod0 <- readOGR('../dataset/3d-terrainmodell-lod0/Terrain_LoD0_TIN.gdb', 'TIN_STANDARD')
+
+
+#
+# ---------------------------------------
+#
+# Plot swiss coordinates onto map.
+#
+  plot(stadtkreise)
+  anInterestingPoint <- data.frame( x = c(2687148),  y = c(1245994) )
+  coordinates(anInterestingPoint) <- ~x+y
+  #
+  #   make sure the two files share the same CRS (Coordinate Reference System)
+  #
+  anInterestingPoint@proj4string = stadtkreise@proj4string
+
+  points(anInterestingPoint, col='red', pch=16, cex=2)
+
+  moreInterestingPoints <- data.frame( 
+        x = c(2686200, 2681400, 2683800 ) ,
+        y = c(1246000, 1252500, 1252200 )
+  )
+  coordinates(moreInterestingPoints) <- ~x+y
+  points(moreInterestingPoints, col='blue', cex=2)
