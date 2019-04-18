@@ -67,6 +67,10 @@
   unzip                                                                                                                                           verkehrszaehlungen_standorte_velo_fussgaenger.zip -d dataset/verkehrszaehlungen-standorte-velo-fussgaenger
   rm                                                                                                                                              verkehrszaehlungen_standorte_velo_fussgaenger.zip
 
+  mkdir                                                                                                                                                                                               dataset/vbz_fahrplandaten_gtfs/2019
+  wget https://data.stadt-zuerich.ch/dataset/eb393743-5b0d-46f1-89b1-fdfaf55ad7c0/resource/be7ff8b4-0f86-43ca-804c-fc14e520a0b2/download/2019_google_transit.zip
+  unzip                                                                                                                                  2019_google_transit.zip                                      dataset/vbz_fahrplandaten_gtfs/2019
+
   mkdir                                                                                                                                                                                               dataset/verkehrszaehlungen-werte-fussgaenger-velo
   wget https://data.stadt-zuerich.ch/dataset/verkehrszaehlungen_werte_fussgaenger_velo/resource/e676571f-ab24-41ba-bb19-9e1990890ad3/download/2009_verkehrszaehlungen_werte_fussgaenger_velo.csv    -Odataset/verkehrszaehlungen-werte-fussgaenger-velo/2009_verkehrszaehlungen_werte_fussgaenger_velo.csv
   wget https://data.stadt-zuerich.ch/dataset/verkehrszaehlungen_werte_fussgaenger_velo/resource/70a9176d-e7a1-4c4a-9b73-bc66c2123cde/download/2010_verkehrszaehlungen_werte_fussgaenger_velo.csv    -Odataset/verkehrszaehlungen-werte-fussgaenger-velo/2010_verkehrszaehlungen_werte_fussgaenger_velo.csv
