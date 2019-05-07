@@ -3,6 +3,7 @@ x11()
 library(rgdal)
 
 stzh_data_root = paste0(Sys.getenv('USERPROFILE'),  '\\github\\data.stadt-zuerich.ch\\')
+# stzh_data_root = paste0(Sys.getenv('USERPROFILE'),  '\\github\\github\\data.stadt-zuerich.ch\\') # Laptop
 
 stadtkreise         <- readOGR (paste0(stzh_data_root, 'dataset/stadtkreise'              )                     , 'Stadtkreis'                                   )
 stat_quartiere      <- readOGR (paste0(stzh_data_root, 'dataset/statistisches-quartier'   )                     , 'StatistischesQuartier'                        )
