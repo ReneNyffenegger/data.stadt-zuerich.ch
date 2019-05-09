@@ -139,3 +139,6 @@
 
   mkdir                                                                                                                                                                                     dataset/politik-abstimmungen-seit-1933
   wget https://data.stadt-zuerich.ch/dataset/politik_abstimmungen_seit_1933/resource/3b5a8ed9-0765-4d59-95a1-e87aa98350e3/download/abstimmungen_seit1933.csv                              -Odataset/politik-abstimmungen-seit-1933/abstimmungen_seit1933.csv
+
+  mkdir                                                                                                                                                                                     dataset/prd_ssz_gang-dur-zueri_od1005
+  wget https://data.stadt-zuerich.ch/dataset/e5be2651-ef15-400f-874b-537a39cd890b/resource/d2ba3aab-8297-43fe-af43-e5acb16ead49/download/bev100od1005.csv                                 -odataset/prd_ssz_gang-dur-zueri_od1005/bev100od1005.csv
