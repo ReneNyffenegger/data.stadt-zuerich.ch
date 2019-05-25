@@ -7,3 +7,4 @@ dataset/vbz_fahrplandaten_gtfs/2019/transfers.txt filter=lfs diff=lfs merge=lfs 
 dataset/vbz_fahrplandaten_gtfs/2019/calendar_dates.txt filter=lfs diff=lfs merge=lfs -text
 dataset/vbz_fahrplandaten_gtfs/2019/calendar.txt filter=lfs diff=lfs merge=lfs -text
 dataset/vbz_fahrplandaten_gtfs/2019/stop_times.txt filter=lfs diff=lfs merge=lfs -text
+dataset/vbz_fahrzeiten_ogd/fahrzeiten_soll_ist_20190505_20190511.csv filter=lfs diff=lfs merge=lfs -text
