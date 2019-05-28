@@ -8,3 +8,8 @@ dataset/vbz_fahrplandaten_gtfs/2019/calendar_dates.txt filter=lfs diff=lfs merge
 dataset/vbz_fahrplandaten_gtfs/2019/calendar.txt filter=lfs diff=lfs merge=lfs -text
 dataset/vbz_fahrplandaten_gtfs/2019/stop_times.txt filter=lfs diff=lfs merge=lfs -text
 dataset/vbz_fahrzeiten_ogd/fahrzeiten_soll_ist_20190505_20190511.csv filter=lfs diff=lfs merge=lfs -text
+dataset filter=lfs diff=lfs merge=lfs -text
+dataset/stadtkreise/Stadtkreis.shx filter=lfs diff=lfs merge=lfs -text
+dataset/stadtkreise/Stadtkreis.dbf filter=lfs diff=lfs merge=lfs -text
+dataset/stadtkreise/Stadtkreis.prj filter=lfs diff=lfs merge=lfs -text
+dataset/stadtkreise/Stadtkreis.shp filter=lfs diff=lfs merge=lfs -text
