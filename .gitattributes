@@ -13,4 +13,3 @@ dataset/stadtkreise/Stadtkreis.shx filter=lfs diff=lfs merge=lfs -text
 dataset/stadtkreise/Stadtkreis.dbf filter=lfs diff=lfs merge=lfs -text
 dataset/stadtkreise/Stadtkreis.prj filter=lfs diff=lfs merge=lfs -text
 dataset/stadtkreise/Stadtkreis.shp filter=lfs diff=lfs merge=lfs -text
-scripts/img/plot-stadtkreise.png filter=lfs diff=lfs merge=lfs -text
