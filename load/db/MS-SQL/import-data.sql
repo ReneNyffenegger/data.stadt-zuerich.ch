@@ -7,19 +7,19 @@
 use st_zh;
 go
 
--- bulk insert dbo.sd_zv_kitas_schulkreis
---    from '$(curDir)\..\..\..\dataset\sd_zv_kitas\sd_zv_kitas_schulkreis.csv'
--- -- from 'C:\Users\OMIS.Rene\github\github\data.stadt-zuerich.ch\dataset\sd_zv_kitas\sd_zv_kitas_schulkreis.csv'
--- with (
---    firstRow        =      2 ,
---    lastRow         =    118 ,
---    codepage        = '65001',
---    format          = 'CSV'  ,
---    fieldterminator = ','   
--- -- rowTerminator   = '0x0a',
--- -- DATAFILETYPE    = 'char'
--- );
--- go
+bulk insert dbo.sd_zv_kitas_schulkreis
+   from '$(curDir)\..\..\..\dataset\sd_zv_kitas\sd_zv_kitas_schulkreis.csv'
+-- from 'C:\Users\OMIS.Rene\github\github\data.stadt-zuerich.ch\dataset\sd_zv_kitas\sd_zv_kitas_schulkreis.csv'
+with (
+   firstRow        =      2 ,
+   lastRow         =    118 ,
+   codepage        = '65001',
+   format          = 'CSV'  ,
+   fieldterminator = ','   
+-- rowTerminator   = '0x0a',
+-- DATAFILETYPE    = 'char'
+);
+go
 
 
 bulk insert dbo.sd_zv_kitas_stadtquartier_imp
