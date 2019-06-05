@@ -1,0 +1,10 @@
+12.0
+8
+1 SQLCHAR 0 100 ","    1 qnr                SQL_Latin1_General_CP1_CI_AS  
+2 SQLCHAR 0 100 ","    2 qname              SQL_Latin1_General_CP1_CI_AS  
+3 SQLCHAR 0 100 ","    3 skname             SQL_Latin1_General_CP1_CI_AS  
+4 SQLCHAR 0 100 ","    4 jahr               SQL_Latin1_General_CP1_CI_AS  
+5 SQLCHAR 0 100 ","    5 anz_bp_sk          SQL_Latin1_General_CP1_CI_AS  
+6 SQLCHAR 0 100 ","    6 anz_kinder_va      SQL_Latin1_General_CP1_CI_AS  
+7 SQLCHAR 0 100 ","    7 belegungsfaktor    SQL_Latin1_General_CP1_CI_AS  
+8 SQLCHAR 0 100 "\r\n" 8 versorgungsquote   SQL_Latin1_General_CP1_CI_AS  
