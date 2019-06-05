@@ -1,5 +1,3 @@
-
-
 --
 --  sqlcmd -S. -v curDir="%CD%" -i import-data.sql
 --
