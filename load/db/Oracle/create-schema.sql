@@ -13,7 +13,7 @@ create table adressen_import (
    gwr_egid                  varchar2(100),
    plz                       varchar2(100),
    stadtkreis                varchar2(100),
-   statistisches_quartierr   varchar2(100),
+   statistisches_quartier    varchar2(100),
    statistische_zone         varchar2(100),
    schulkreis                varchar2(100),
    verwaltungsquartier       varchar2(100),
