@@ -21,7 +21,7 @@ create table adressen_import (
    ev_ref_kirchgemeinde      varchar2(100),
    easting                   varchar2(100),
    northing                  varchar2(100),
-   eeasting_wgs              varchar2(100),
+   easting_wgs               varchar2(100),
    northing_wgs              varchar2(100)
 );
 
